@@ -1,5 +1,5 @@
-function helloWorld(name) {
-    console.log("Hello " + name);
+function helloWorld(name, age, surname) {
+    console.log("Hello " + name + surname + `. My age is ${age} y.o.`);
 }
 
-helloWorld("Stefan")
+helloWorld("Stefan ", 20, "Testovich")
